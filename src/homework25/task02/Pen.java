@@ -6,7 +6,7 @@ public class Pen {
   public void write(String text) {
     if (amountOfInk >= text.length()) {
       System.out.println(text);
-      amountOfInk -= 10 * text.length();
+      amountOfInk -= text.length();
     } else {
       System.out.println("Закончились чернила, поменяйте стержень.");
     }

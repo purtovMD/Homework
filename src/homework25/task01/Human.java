@@ -5,7 +5,7 @@ public class Human {
   int age;
 
   public void introduce() {
-    System.out.println("Привте, меня зовут " + name + ", " + "мне " +  + age + "!");
+    System.out.println("Привте, меня зовут " + name + ",мне " +  + age + "!");
   }
 
 }
