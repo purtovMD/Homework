@@ -11,5 +11,4 @@ public class Main {
     System.out.println(trafficLight.getCurrentColor());
     System.out.println(trafficLight.canCrossTheRoad());
   }
-
 }

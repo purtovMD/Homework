@@ -19,5 +19,4 @@ public class TrafficLight {
   public boolean canCrossTheRoad() {
     return currentColor == TrafficLightColor.GREEN;
   }
-
 }
