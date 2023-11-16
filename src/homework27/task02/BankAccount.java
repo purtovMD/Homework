@@ -1,12 +1,13 @@
 package homework27.task02;
 
-public class Bank_Account {
+public class BankAccount {
 
   private final String accountNumber;
   private double amountOfMoney;
 
-  public Bank_Account(String accountNumber) {
+  public BankAccount(String accountNumber) {
     this.accountNumber = accountNumber;
+    this.amountOfMoney = 0;
   }
 
   public String getAccountNumber() {

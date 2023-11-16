@@ -6,7 +6,7 @@ public class Main {
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    Bank_Account bankAccount = new Bank_Account("123 456 789");
+    BankAccount bankAccount = new BankAccount("123 456 789");
 
     System.out.println("Номер счета: " + bankAccount.getAccountNumber());
 
